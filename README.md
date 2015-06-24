@@ -43,13 +43,11 @@
 </ion-header-bar>
 ```
 
-* Add .video-container div and iframe:
+* Add .video-container div and iframe inside the already present <ion-content> tag:
 ```
-  <ion-content>
     <div class="video-container">
       <iframe src="http://www.youtube.com/embed/JAUoeqvedMo?rel=0" frameborder="0" allowfullscreen></iframe>
     </div>
-  </ion-content>
 ```
 
 * Add CSS for .video-container div
